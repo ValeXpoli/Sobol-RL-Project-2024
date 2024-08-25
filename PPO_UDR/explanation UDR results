@@ -1,0 +1,4 @@
+THIS IS THE EXPLANATION OF WHY OUR UDR OUTPERFORMS W.R.T TARGET-->TARGET SETUP ( Upper Bound ) 
+
+UDR involves training the policy across a variety of environments with randomized parameters within a certain range. The goal is to make the policy robust and capable of performing well across a range of unseen environments.
+Although UDR typically introduces variability that can make the policy less optimal for any single environment (hence potentially lowering the average reward), it can also sometimes lead to policies that generalize better. This improved generalization can, in some cases, lead to better-than-expected performance even in the target environment.
