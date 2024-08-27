@@ -34,7 +34,7 @@ def compute_names(alg, train_type, dr_type):
     ending_part_names = f"{train_type}_{dr_type}_ts_{args.train_timesteps}"
     if dr_type == "UDR":
         ending_part_names = ending_part_names + f"_range_{args.range}"
-        if args.mass in [1, 2, 3]:
+        if args.mass in [1, 2, 3,12,13,23]:
             ending_part_names += f"_m{args.mass}"
     model_name = f"{alg}model_{ending_part_names}" if args.outName is None else f"{args.outName}_{ending_part_names}"
     evaluation_name = f"eval_{model_name}"
