@@ -1,6 +1,6 @@
 
-## Repository Structure
-
+## Files Structure
+The majority of the folders, except for Actor-Critic and Reinforce contain 3 files that generally have the same code, with only small variations tailored to a specific task.
 - **`train_sb3.py`**: The main script for training and testing RL agents. It includes various configurable options via command-line arguments.
 - **`env/custom_hopper.py`**: Contains the definition of the custom environment "Custom Hopper".
 - **`UDR.py`**: Defines the callback for domain randomization.
