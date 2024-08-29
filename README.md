@@ -61,7 +61,7 @@ Ensure you have the following dependencies installed:
    - Type: float
    - Default value: 5
 
-10. --mass
+10.**`--mass`**
     - Description: Specifies the mass to use for domain randomization. It determines the mass value that varies the environment's dynamics during training.
     - Type: int
     - Default value: None
