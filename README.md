@@ -68,6 +68,6 @@ Ensure you have the following dependencies installed:
 
 ## Fine-tuning (Optuna)
 For models where hyperparameter fine-tuning has been implemented, the optuna.db files contain the logs of the trials conducted by the Optuna tool.
-Optuna is an open-source  and versatile hyperparameter optimization framework designed to automate the process of tuning machine learning models. It works by efficiently searching for the optimal set of hyperparameters through techniques like Bayesian optimization. The results of these optimization trials are stored in the optuna.db files, which can then be analyzed to select the best-performing hyperparameter configuration.
+Optuna is an open-source  and versatile hyperparameter optimization framework designed to automate the process of tuning machine learning models. 
 For more information, visit the [Optuna GitHub repository](https://github.com/optuna/optuna).
 
