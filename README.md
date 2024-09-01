@@ -75,5 +75,5 @@ For more information, visit the [Optuna GitHub repository](https://github.com/op
 The code is designed to handle large-scale evaluations by splitting the workload into batches and distributing them across multiple processes. This ensures that even with an increased number of parameters, the computation time remains manageable.
 The computational cost can be approximately identified as : 
 `O(N × m / p)`
-Where N is the n of samples ,m is the n of parameters and p n porocesses.
+Where N is the number of samples ,m is the number of parameters and p is the number of processes.
 In this way, it becomes feasible to leverage Sobol sensitivity analysis to identify the parameters that are most beneficial to randomize. This approach is particularly valuable because training a model with domain randomization is generally more computationally expensive. By focusing on the parameters that have the greatest impact on the model's performance, you can optimize the randomization process, thereby improving the efficiency of training and reducing unnecessary computational costs.
